@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 /**
- * Tum Tours and Safaris - Home Page
+ * Shane Tours and Safaris - Home Page
  * Design Philosophy: Coastal Expedition
  * - Organic Modernism with Travel Nostalgia
  * - Vibrant Zanzibar-inspired palette (Ocean Teal, Sandy Cream, Safari Earth)
@@ -142,11 +142,11 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <img
               src="https://d2xsxph8kpxj0f.cloudfront.net/310519663555999402/oKDJXGWHxAB4YCSg8teFVd/brand-logo-gaGPkEFCB3ZcrNbtzytA6j.webp"
-              alt="Tum Tours Logo"
+              alt="Shane Tours Logo"
               className="w-10 h-10"
             />
             <span className="text-2xl font-bold text-ocean-teal" style={{ fontFamily: "'Playfair Display', serif" }}>
-              Tum Tours
+              Shane Tours
             </span>
           </div>
           <nav className="hidden md:flex gap-8">
@@ -206,9 +206,9 @@ export default function Home() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="mb-6">Why Choose Tum Tours?</h2>
+              <h2 className="mb-6">Why Choose Shane Tours?</h2>
               <p className="text-lg text-foreground mb-6 leading-relaxed">
-                Based in Jumbi, Zanzibar, we've been crafting unforgettable experiences for travelers seeking authentic connections with our islands and mainland.
+                Based in Jumbi, Zanzibar, Shane Tours has been crafting unforgettable experiences for travelers seeking authentic connections with our islands and mainland.
               </p>
 
               <div className="space-y-4">
@@ -470,7 +470,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <h4 className="font-bold text-safari-earth mb-4">About</h4>
-              <p className="text-sm">Tum Tours and Safaris - Your gateway to authentic Zanzibar and Tanzania adventures.</p>
+              <p className="text-sm">Shane Tours and Safaris - Your gateway to authentic Zanzibar and Tanzania adventures.</p>
             </div>
             <div>
               <h4 className="font-bold text-safari-earth mb-4">Services</h4>
@@ -485,7 +485,7 @@ export default function Home() {
               <ul className="text-sm space-y-2">
                 <li>📍 Jumbi, Zanzibar</li>
                 <li>📞 +255 XXX XXX XXX</li>
-                <li>✉️ info@tumtours.com</li>
+                <li>✉️ info@shanetours.com</li>
               </ul>
             </div>
             <div>
@@ -499,7 +499,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-foreground/20 pt-8 text-center text-sm">
-            <p>&copy; 2026 Tum Tours and Safaris. All rights reserved. | Crafted with care for adventurers.</p>
+            <p>&copy; 2026 Shane Tours and Safaris. All rights reserved. | Crafted with care for adventurers.</p>
           </div>
         </div>
       </footer>
